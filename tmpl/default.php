@@ -16,6 +16,7 @@ defined('_JEXEC') or die('Direct Access to this location is not allowed.');
 $logInUrl = $params->get('logInUrl');
 $logOutUrl = $params->get('logOutUrl');
 $registerUrl = $params->get('registerUrl');
+$redirectUrl = $params->get('redirectUrl');
 $moduleclass_sfx = $params->get('moduleclass_sfx');
 ?>
 

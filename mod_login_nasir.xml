@@ -29,7 +29,7 @@
                        label="Login Url" 
                        description="Login Url" />
                 
-		<field name="logOutUrl" type="text" 
+		            <field name="logOutUrl" type="text" 
                        default="logout.php" 
                        label="Logout Url" 
                        description="Logout Url" /> 
@@ -37,7 +37,12 @@
                 <field name="registerUrl" type="text" 
                        default="#" 
                        label="Register Url" 
-                       description="Register Url" />               		
+                       description="Register Url" /> 
+
+                <field name="redirectUrl" type="text" 
+                       default="#" 
+                       label="Redirect Url" 
+                       description="Redirect Url" />                                      		
                 
                 <field name="moduleclass_sfx" 
                        type="text" 
