@@ -1,26 +1,44 @@
-/*
- * Joomla Insta Photo Gallery Module
- * 
- * @package		JInstaPhotoGallery 
- * @version		1.0.1
- * @license		GNU/GPL v3 License - http://www.gnu.org/licenses/gpl.html
- * @author-name		Nasir Khan Saikat
- * @email		nasir8891@gmail.com
- * @website		http://nasirkhn.com
- * @description		This module will help you to display the photos uploaded at Instagram. You can find all the features at http://extension.nasirkhn.com. 
- */
-
-a.instagram-login {
-background: url(../images/instagram-login-button.png) no-repeat transparent;
-cursor: pointer;
-display: block;
-height: 29px;
-margin: 50px auto;
-overflow: hidden;
-text-indent: -9999px;
-width: 200px;
+.loggedin_box_heading{
+	color: #fba206;
+	text-transform: uppercase;
+	font-weight: bold;
 }
-
-a.instagram-login:hover {
-background-position: 0 -29px;
+.loggedin_box_row{
+	float: left;
+	width: 100%;
+	font-size: 11px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.loggedin_box_row a{
+	text-decoration: none;
+	color: #4E4E4E;
+}
+.loggedin_box_left{
+	float: left;
+	width: 45%;
+}
+.loggedin_box_right{
+	float: left;
+	width: 55%;
+}
+.h_line{
+	border-top: 1px solid #dfdfdf;
+	margin: 10px 0px;
+}
+.logout-btn-div{
+	background: url("/images/logout_bg.jpg") no-repeat;  
+	margin: auto;
+	text-align: center;
+	height: 25px;
+	width: 60px;
+	margin-top: 15px;
+}
+.logout-btn-div a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+.logout-btn-div-text{
+	padding: 4px;
 }

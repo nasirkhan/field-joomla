@@ -9,8 +9,8 @@
     <authorEmail>nasir8891@gmail.com</authorEmail>
     <authorUrl>http://nasirkhn.com</authorUrl>
     <version>1.0.1</version>
-    <description></description>	
-	
+    <description></description> 
+  
     <files>
         <filename module="mod_login_nasir">mod_login_nasir.php</filename>
         <filename>mod_login_nasir.xml</filename>
@@ -29,7 +29,7 @@
                        label="Login Url" 
                        description="Login Url" />
                 
-		            <field name="logOutUrl" type="text" 
+                <field name="logOutUrl" type="text" 
                        default="logout.php" 
                        label="Logout Url" 
                        description="Logout Url" /> 
@@ -39,10 +39,10 @@
                        label="Register Url" 
                        description="Register Url" /> 
 
-                <field name="redirectUrl" type="text" 
+                <!-- <field name="redirectUrl" type="text" 
                        default="#" 
                        label="Redirect Url" 
-                       description="Redirect Url" />                                      		
+                       description="Redirect Url" />   -->                                        
                 
                 <field name="moduleclass_sfx" 
                        type="text" 
