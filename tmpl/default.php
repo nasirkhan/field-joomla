@@ -185,7 +185,7 @@ $moduleclass_sfx = $params->get('moduleclass_sfx');
                         <div class="pass"> </div>
                         <div class="submit-btn-div">
                             <div class="forgot-pass">
-                                <a href="#">Forgot Password?</a>
+                                <a href="/jobs/forgot_password.php">Forgot Password?</a>
                             </div>
                             <div class="submit-btn">
                                 <input type='submit' name='Submit' value='Login' />
@@ -195,6 +195,7 @@ $moduleclass_sfx = $params->get('moduleclass_sfx');
                         <div class="login-text">
                             <span class="login-text-span1">Not Registered</span> Signing up is easy
                         </div>
+                        <div style="clear:both;"></div>
                         <div class="register-now">
                             <a href="<?php echo $registerUrl; ?>">Register Now</a>
                         </div>
