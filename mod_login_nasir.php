@@ -8,7 +8,7 @@
  * @author-name		Nasir Khan Saikat
  * @email		nasir8891@gmail.com
  * @website		http://nasirkhn.com
- * @description		
+ * @description		Custom login module for joomla site and field recrutement job portal 
  */
 
 // no direct access
